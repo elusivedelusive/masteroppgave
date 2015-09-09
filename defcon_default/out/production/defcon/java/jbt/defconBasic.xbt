@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tree>
+  <Node id="Node_0" name="PlaceSilo" type="Root">
+    <Children>
+      <Node id="Node_10" type="Sequence">
+        <Children>
+          <Node id="Node_11" name="IsDefcon5" type="Condition" />
+        </Children>
+      </Node>
+    </Children>
+  </Node>
+</Tree>
+

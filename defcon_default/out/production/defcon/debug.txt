@@ -1,0 +1,75 @@
+Defcon 1.51 bot built Nov 17 2008
+Parsing archive main.dat...DONE
+Found language 'english' with caption 'English' in 'data/language/english.txt'
+Found language 'french' with caption 'Français' in 'data/language/french.txt'
+Found language 'german' with caption 'Deutsch' in 'data/language/german.txt'
+Found language 'italian' with caption 'Italiano' in 'data/language/italian.txt'
+Found language 'spanish' with caption 'Español' in 'data/language/spanish.txt'
+Found language 'spanish' with caption 'Español' in 'data/language/spanish.txt'
+WinSock started
+Client listening on port 5011
+0: all: C:\Users\Jonatan\masteroppgave\defcon_default\Defcon.exe
+ beforeEq: C:\Users\Jonatan\masteroppgave\defcon_default\Defcon.exe 
+afterEq: 
+Parsing Coastline data (1776 islands) : 20ms
+Parsing International data (2753 islands) : 7ms
+Parsing City data (2745 cities) : 19ms
+Parsing archive sounds.dat...DONE
+Authentication key set : 'DEMOEU-UUYMCN-DMAYZM-JIPYGT-KYZ'
+WinSock started
+Connection established to MetaServer, listening on Port 5009
+Requesting data from MetaServer : LatestVersion
+Requesting data from MetaServer : MOTD
+Requesting data from MetaServer : DemoLimits
+Received data from MetaServer : LatestVersion
+Received data from MetaServer : MOTD
+Received data from MetaServer : DemoLimits
+Received Authentication : DEMOEU-UUYMCN-DMAYZM-JIPYGT-KYZ : (keyID -1) : Accepted
+Auth Key accepted as DEMOKEY : DEMOEU-UUYMCN-DMAYZM-JIPYGT-KYZ
+Requesting data from MetaServer : UpdateURL
+Received data from MetaServer : UpdateURL
+Sound System regained window focus
+CLIENT : Disconnected
+0: all: C:\Users\Jonatan\masteroppgave\defcon_default\Defcon.exe
+ beforeEq: C:\Users\Jonatan\masteroppgave\defcon_default\Defcon.exe 
+afterEq: 
+EclRemoveWindow failed on window LOBBY
+Local IP address is: 78.91.30.96
+WinSock started
+Server started on port 5010
+CLIENT : Attempting connection to Server at 78.91.30.96:5010...
+Created Library Controller!/nInt Data not found : dr
+SERVER: New Client connected from 78.91.30.96:5011 (version 1.51 bot)
+SERVER: Client at 78.91.30.96:5011 requested ID.  Sent ID 0.
+Largest server letter sent : 80 bytes
+Started requesting public IP:port for socket 892
+MetaServer enabling UDP broadcast for LAN discovery...SUCCESS
+CLIENT : Received ClientID of 0
+CLIENT : Server version is 1.51 bot
+MetaServer : WAN registration enabled
+MetaServer : LAN registration enabled
+Server has set the MOD path: ''
+CLIENT : Received HelloClient from Server
+Socket 892 identified as public IP 78.91.30.96:5010
+SERVER: New team request from 78.91.30.96:5011
+Largest server letter sent : 83 bytes
+Largest server letter sent : 101 bytes
+Initialised Own Team - Loading bot.
+Directory found: javabot
+DLL path: AI/javabot/javabot.dll
+Directory found: simplebot
+DLL path: AI/simplebot/simplebot.dll
+Loaded library AI/javabot/javabot.dll.
+Bot DLL successfully initialised. (Interface version: 1)
+SERVER: New team request from 78.91.30.96:5011
+Largest server letter sent : 103 bytes
+App RandSeed = 135
+Parsing City data (2745 cities) : 18ms
+Population of Team #0 : 100.0 Million spread over 25 cities
+Population of Team #1 : 100.0 Million spread over 25 cities
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 23 size: 0
+Streamlist size: 1 data:  1 23 20 11.6418 0 0 50 1 0 0 1407334 CIUDAD_DE_GUAT GUATEMALA 1 1 0 100000 -1 -90.3667 14.6333 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0

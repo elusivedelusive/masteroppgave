@@ -1,0 +1,31 @@
+<Domain package="myPackage">
+    <ActionSet>
+        <Action name ="PlaceStructure">
+            <Parameter name="longitude" type="FLOAT"/>
+            <Parameter name="latitude" type="FLOAT"/>
+            <Parameter name="typeId" type="INTEGER"/>
+        </Action>
+    </ActionSet>
+
+    <SensorSet>
+        <Sensor name="IsDefcon5" type="BOOLEAN"/>
+        <Sensor name="IsDefcon4" type="BOOLEAN"/>
+        <Sensor name="IsDefcon3" type="BOOLEAN"/>
+        <Sensor name="IsDefcon2" type="BOOLEAN"/>
+        <Sensor name="IsDefcon1" type="BOOLEAN"/>
+        <Sensor name="IsValidPlacementLocation" type="BOOLEAN">
+            <Parameter name="longitude" type="FLOAT"/>
+            <Parameter name="latitude" type="FLOAT"/>
+            <Parameter name="typeId" type="INTEGER"/>
+        </Sensor>
+
+    </SensorSet>
+
+    <GoalSet>
+
+    </GoalSet>
+
+    <EntitySet>
+
+    </EntitySet>
+</Domain>
