@@ -16,8 +16,12 @@
  * 
  */
 
-package javabot;
+package java.javabot;
 
+import jbt.execution.core.*;
+import jbt.model.core.ModelTask;
+
+import java.jbt.defconLib;
 import java.util.ArrayList;
 
 public class JBot {
@@ -331,10 +335,32 @@ public class JBot {
         }
     }
 
+
+    //BT STUFF
+    public static IBTLibrary btLibrary;
+    public static IContext context;
+    public static ModelTask defconTree;
+    public static IBTExecutor btExecutor;
+
+    public static void initBT (){
+        btLibrary = new defconLib();
+        context = ContextFactory.createContext(btLibrary);
+
+        context.setVariable("CurrentEntityID", "jonatansAI");
+
+        defconTree = btLibrary.getBT("defconBasic");
+
+        btExecutor = BTExecutorFactory.createBTExecutor(defconTree, context);
+    }
+    //BT STUFF
+
+
     // update is called every tick of the game
     public static boolean update() {
 
-        //find friendly cities
+
+        btExecutor.tick();
+/*        //find friendly cities
         if (GetGameTick() == 60) {
             findFriendlyCities();
         }
@@ -347,7 +373,7 @@ public class JBot {
             int[] c = GetAllUnits();
             SendChatMessage("Counting " + c.length + " bitches!", CHATCHANNEL_PUBLIC);
             if (c.length > 5) DebugLog("Unit id 5: " + c[5]);
-        }
+        }*/
 
         return true;
     }
@@ -356,6 +382,7 @@ public class JBot {
     public static boolean initialise(String[][] _commandLineOptions) {
         commandLineOptions = _commandLineOptions.clone();
         SendChatMessage("Counting " + _commandLineOptions.length + " cmdline options!", CHATCHANNEL_PUBLIC);
+        initBT();
 
         return true;
     }
@@ -366,6 +393,8 @@ public class JBot {
                                 int _unitType, float _longitude, float _latitude) {
 
     }
+
+    
 
 }
 
