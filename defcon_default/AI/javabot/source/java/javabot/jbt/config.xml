@@ -1,0 +1,14 @@
+<Configuration>
+    <DomainFile>javabot\jbt\domain.xml</DomainFile>
+    <BTFile>javabot\jbt\defconBasic.xbt</BTFile>
+
+    <ModelActionsPackage>javabot.jbt.bts.actions</ModelActionsPackage>
+    <ModelActionsOutputDirectory>javabot\jbt\bts\actions</ModelActionsOutputDirectory>
+    <ExecutionActionsPackage>javabot.jbt.bts.actions.execution</ExecutionActionsPackage>
+    <ExecutionActionsOutputDirectory>javabot\jbt\bts\actions\execution</ExecutionActionsOutputDirectory>
+
+    <ModelConditionsPackage>javabot.jbt.bts.conditions</ModelConditionsPackage>
+    <ModelConditionsOutputDirectory>javabot\jbt\bts\conditions</ModelConditionsOutputDirectory>
+    <ExecutionConditionsPackage>javabot.jbt.bts.conditions.execution</ExecutionConditionsPackage>
+    <ExecutionConditionsOutputDirectory>javabot\jbt\bts\conditions\execution</ExecutionConditionsOutputDirectory>
+</Configuration>

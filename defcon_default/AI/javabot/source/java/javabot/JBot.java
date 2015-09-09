@@ -16,13 +16,14 @@
  * 
  */
 
-package java.javabot;
+package javabot;
 
+import java.util.ArrayList;
+import java.util.logging.Logger;
+
+import javabot.jbt.*;
 import jbt.execution.core.*;
 import jbt.model.core.ModelTask;
-
-import java.jbt.defconLib;
-import java.util.ArrayList;
 
 public class JBot {
     // the following declarations are functions implemented in the C++ API of DEFCON,
@@ -335,7 +336,6 @@ public class JBot {
         }
     }
 
-
     //BT STUFF
     public static IBTLibrary btLibrary;
     public static IContext context;
@@ -354,26 +354,24 @@ public class JBot {
     }
     //BT STUFF
 
-
     // update is called every tick of the game
     public static boolean update() {
 
-
-        btExecutor.tick();
-/*        //find friendly cities
-        if (GetGameTick() == 60) {
+       //find friendly cities
+        if (GetGameTick() == 150) {
+            //btExecutor.tick();
             findFriendlyCities();
         }
 
-        if (GetGameTick() == 90) {
+       if (GetGameTick() == 90) {
             placeSilos();
-        }
+       }
 
         if (GetGameTick() % 30 == 0) {
             int[] c = GetAllUnits();
             SendChatMessage("Counting " + c.length + " bitches!", CHATCHANNEL_PUBLIC);
             if (c.length > 5) DebugLog("Unit id 5: " + c[5]);
-        }*/
+        }
 
         return true;
     }
@@ -382,8 +380,11 @@ public class JBot {
     public static boolean initialise(String[][] _commandLineOptions) {
         commandLineOptions = _commandLineOptions.clone();
         SendChatMessage("Counting " + _commandLineOptions.length + " cmdline options!", CHATCHANNEL_PUBLIC);
-        initBT();
 
+        Logger log = Logger.getGlobal();
+        log.info("her sjkjedde det noe!");
+
+       //initBT();
         return true;
     }
 
@@ -394,7 +395,7 @@ public class JBot {
 
     }
 
-    
+
 
 }
 

@@ -1,0 +1,12 @@
+<Configuration>
+    <BTLibrary>
+    	<DomainFile>javabot\jbt\domain.xml</DomainFile>
+    	<BTFile>javabot\jbt\defconBasic.xbt</BTFile>
+        <LibraryClassName>defconLib</LibraryClassName>
+        <LibraryPackage>javabot.jbt</LibraryPackage>
+        <LibraryOutputDirectory>javabot\jbt</LibraryOutputDirectory>
+
+	<ModelActionsPackage>javabot.jbt.bts.actions</ModelActionsPackage>
+	<ModelConditionsPackage>javabot.jbt.bts.conditions</ModelConditionsPackage>
+    </BTLibrary>
+</Configuration>

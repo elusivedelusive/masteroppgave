@@ -1,0 +1,194 @@
+Defcon 1.51 bot built Nov 17 2008
+Parsing archive main.dat...DONE
+Found language 'english' with caption 'English' in 'data/language/english.txt'
+Found language 'french' with caption 'Français' in 'data/language/french.txt'
+Found language 'german' with caption 'Deutsch' in 'data/language/german.txt'
+Found language 'italian' with caption 'Italiano' in 'data/language/italian.txt'
+Found language 'spanish' with caption 'Español' in 'data/language/spanish.txt'
+Found language 'spanish' with caption 'Español' in 'data/language/spanish.txt'
+WinSock started
+Client listening on port 5011
+0: all: C:\Users\Jonatan\masteroppgave\defcon_default\Defcon.exe
+ beforeEq: C:\Users\Jonatan\masteroppgave\defcon_default\Defcon.exe 
+afterEq: 
+Parsing Coastline data (1776 islands) : 21ms
+Parsing International data (2753 islands) : 7ms
+Parsing City data (2745 cities) : 19ms
+Parsing archive sounds.dat...DONE
+Authentication key set : 'DEMOEU-UUYMCN-DMAYZM-JIPYGT-KYZ'
+WinSock started
+Connection established to MetaServer, listening on Port 5009
+Requesting data from MetaServer : LatestVersion
+Requesting data from MetaServer : MOTD
+Requesting data from MetaServer : DemoLimits
+Received data from MetaServer : DemoLimits
+Received data from MetaServer : LatestVersion
+Received data from MetaServer : MOTD
+CLIENT : Disconnected
+0: all: C:\Users\Jonatan\masteroppgave\defcon_default\Defcon.exe
+ beforeEq: C:\Users\Jonatan\masteroppgave\defcon_default\Defcon.exe 
+afterEq: 
+EclRemoveWindow failed on window LOBBY
+Local IP address is: 78.91.30.96
+WinSock started
+Server started on port 5010
+CLIENT : Attempting connection to Server at 78.91.30.96:5010...
+Created Library Controller!/nInt Data not found : dr
+SERVER: New Client connected from 78.91.30.96:5011 (version 1.51 bot)
+SERVER: Client at 78.91.30.96:5011 requested ID.  Sent ID 0.
+Largest server letter sent : 80 bytes
+Started requesting public IP:port for socket 880
+MetaServer enabling UDP broadcast for LAN discovery...SUCCESS
+CLIENT : Received ClientID of 0
+CLIENT : Server version is 1.51 bot
+MetaServer : WAN registration enabled
+MetaServer : LAN registration enabled
+Server has set the MOD path: ''
+CLIENT : Received HelloClient from Server
+Socket 880 identified as public IP 78.91.30.96:5010
+Received Authentication : DEMOEU-UUYMCN-DMAYZM-JIPYGT-KYZ : (keyID -1) : Accepted
+Auth Key accepted as DEMOKEY : DEMOEU-UUYMCN-DMAYZM-JIPYGT-KYZ
+SERVER: New team request from 78.91.30.96:5011
+Largest server letter sent : 83 bytes
+Largest server letter sent : 101 bytes
+Initialised Own Team - Loading bot.
+Directory found: javabot
+DLL path: AI/javabot/javabot.dll
+Directory found: simplebot
+DLL path: AI/simplebot/simplebot.dll
+Requesting data from MetaServer : UpdateURL
+Received data from MetaServer : UpdateURL
+Requesting data from MetaServer : ServerTTL
+Received data from MetaServer : ServerTTL
+Authentication HashToken set to -1397243829
+Loaded library AI/javabot/javabot.dll.
+Bot DLL successfully initialised. (Interface version: 1)
+Largest server letter sent : 121 bytes
+SERVER: New team request from 78.91.30.96:5011
+App RandSeed = 375
+Parsing City data (2745 cities) : 13ms
+Population of Team #0 : 100.0 Million spread over 25 cities
+Population of Team #1 : 100.0 Million spread over 25 cities
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 82 size: 0
+Streamlist size: 1 data:  1 82 20 41.1549 0 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 0
+WORLDSCALE: 1.000000
+Largest server letter sent : 127 bytes
+WORLDSCALE: 1.000000
+WORLDSCALE: 1.000000
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 112 size: 20940
+Streamlist size: 2 data:  1 112 5 11.2013 15 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 
+WORLDSCALE: 1.000000
+Largest server letter sent : 133 bytes
+WORLDSCALE: 1.000000
+WORLDSCALE: 1.000000
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 142 size: 42902
+Streamlist size: 3 data:  1 142 5 14.2011 30 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 
+WORLDSCALE: 1.000000
+Largest server letter sent : 1727 bytes
+WORLDSCALE: 1.000000
+WORLDSCALE: 1.000000
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 172 size: 65651
+Streamlist size: 4 data:  1 172 5 17.2026 45 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 
+WORLDSCALE: 1.000000
+WORLDSCALE: 1.000000
+WORLDSCALE: 1.000000
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 202 size: 89196
+Streamlist size: 5 data:  1 202 5 20.2036 60 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 
+WORLDSCALE: 1.000000
+WORLDSCALE: 1.000000
+WORLDSCALE: 1.000000
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 232 size: 113546
+Streamlist size: 6 data:  1 232 5 23.2032 75 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 
+WORLDSCALE: 1.000000
+WORLDSCALE: 1.000000
+WORLDSCALE: 1.000000
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 262 size: 138722
+Streamlist size: 7 data:  1 262 5 26.2022 90 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 
+WORLDSCALE: 1.000000
+WORLDSCALE: 1.000000
+WORLDSCALE: 1.000000
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 292 size: 166441
+Streamlist size: 8 data:  1 292 5 29.207 105 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 
+WORLDSCALE: 1.000000
+Sound System regained window focus
+WORLDSCALE: 1.000000
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 322 size: 200262
+Streamlist size: 9 data:  1 322 5 32.2014 120 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 352 size: 238407
+Streamlist size: 10 data:  1 352 5 35.2034 135 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 382 size: 277095
+Streamlist size: 11 data:  1 382 5 38.2013 150 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 412 size: 316207
+Streamlist size: 12 data:  1 412 5 41.2055 165 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 442 size: 355764
+Streamlist size: 13 data:  1 442 5 44.2054 180 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 472 size: 395854
+Streamlist size: 14 data:  1 472 5 47.205 195 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 
+Requesting data from MetaServer : ServerTTL
+Received data from MetaServer : ServerTTL
+name before write: NewPlayer
+name after write: NewPlayer
+name before write: Player 1
+name after write: Player 1
+updating state recorder! seq: 502 size: 436483
+Streamlist size: 15 data:  1 502 5 50.204 210 0 50 1 0 0 8750839 HONG_KONG HONG_KONG 1 1 1 100000 -1 114.217 23.6446 1 0 0 0 0 -1 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 
+Destroyed Library Controller!/nCLIENT : Sending disconnect...
+CLIENT : Disconnected
+SERVER : Shutting down...
+SERVER : Sent Disconnect to client 0
